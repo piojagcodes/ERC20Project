@@ -1,0 +1,22 @@
+{
+  "name": "erc20_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "hardhat compile",
+    "test:light": "hardhat test",
+    "test": "hardhat coverage"
+  },
+  "keywords": [],
+  "author": "Piotr Jagiello",
+  "license": "ISC",
+  "devDependencies": {
+    "@openzeppelin/test-helpers": "^0.5.14",
+    "hardhat": "^2.6.4"
+  },
+  "dependencies": {
+    "@defi-wonderland/smock": "^2.0.7",
+    "@openzeppelin/contracts": "^4.3.2"
+  }
+}
